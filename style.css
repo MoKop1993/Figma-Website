@@ -67,6 +67,4 @@ button {
   grid-template-rows: 1fr;
   grid-column-start: 2;
   grid-row-end: -2;
-  display: flex;
-  align-content: stretch;
 }
