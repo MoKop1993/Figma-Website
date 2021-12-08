@@ -5,6 +5,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 20%);
+  height: 1000px;
 }
 .navigation-container {
   grid-template-columns: 1fr;
@@ -69,7 +70,7 @@ img {
 
 .background-image {
   background-image: url("designer_1.jpg");
-  width: 375%;
+  width: 370%;
   height: 75%;
   display: grid;
   grid-column-start: 2;
@@ -84,6 +85,7 @@ img {
   color: #091133;
   margin: 320px 95px;
   width: 190%;
+  font-weight: 500;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -107,6 +109,7 @@ img {
   display: grid;
   grid-row-end: 1;
   grid-column-start: 1;
+  height: 10%;
 }
 
 .purchase-UI-kit {
@@ -126,6 +129,7 @@ img {
   display: grid;
   grid-row-end: 1;
   grid-column-start: 2;
+  height: 10%;
 }
 
 .learn-more {
@@ -139,4 +143,50 @@ img {
   margin: 690px 25px;
   width: 65%;
   height: 2.5%;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+}
+
+.title-light-fast-powerful-1 {
+  font-weight: 500;
+  font-style: normal;
+  size: 36px;
+  line-height: 48px;
+  color: rgba(9, 17, 51, 1);
+  width: 160%;
+  margin-left: 95px;
+  margin-top: 295px;
+  display: grid;
+  grid-column-start: 1;
+  grid-row-end: 1;
+}
+
+.body-paragraph-2 {
+  font-weight: 400;
+  font-style: normal;
+  size: 16px;
+  line-height: 26px;
+  color: rgba(111, 124, 178, 1);
+  margin-left: 95px;
+  margin-top: 355px;
+  width: 180%;
+  display: grid;
+  grid-column-start: 1;
+  grid-row-end: 1;
+}
+
+.undraw-mobile-container {
+  display: grid;
+  grid-column-start: 4;
+  grid-row-end: 1;
+}
+
+.undraw-mobile {
+  width: 540px;
+  height: 524, 31px;
+  margin: 0px;
+  padding: 0px;
 }
