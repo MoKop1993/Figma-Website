@@ -158,7 +158,7 @@ img {
   color: rgba(9, 17, 51, 1);
   width: 160%;
   margin-left: 95px;
-  margin-top: 295px;
+  margin-top: 195px;
   display: grid;
   grid-column-start: 1;
   grid-row-end: 1;
@@ -171,7 +171,7 @@ img {
   line-height: 26px;
   color: rgba(111, 124, 178, 1);
   margin-left: 95px;
-  margin-top: 355px;
+  margin-top: 245px;
   width: 180%;
   display: grid;
   grid-column-start: 1;
@@ -180,13 +180,91 @@ img {
 
 .undraw-mobile-container {
   display: grid;
-  grid-column-start: 4;
+  grid-column-start: 3;
   grid-row-end: 1;
 }
 
 .undraw-mobile {
   width: 540px;
-  height: 524, 31px;
-  margin: 0px;
+  height: 630px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.icon-1 {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-end: 1;
+  width: 36px;
+  margin-left: 95px;
+  margin-top: 470px;
   padding: 0px;
+}
+
+.icon-2 {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-end: 1;
+  width: 36px;
+  margin-left: 95px;
+  margin-top: 470px;
+  padding: 0px;
+}
+
+.title-goes-here-1 {
+  color: rgba(9, 17, 51, 1);
+  width: 255px;
+  height: 26px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  display: grid;
+  grid-column: 1;
+  grid-row-end: 1;
+  margin-left: 95px;
+  margin-top: 510px;
+}
+
+.title-goes-here-paragraph-1 {
+  width: 225px;
+  height: 54px;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(93, 105, 112, 1);
+  margin-left: 95px;
+  margin-top: 540px;
+  display: grid;
+  grid-column-start: 1;
+  grid-row-end: 1;
+}
+
+.title-goes-here-2 {
+  color: rgba(9, 17, 51, 1);
+  width: 255px;
+  height: 26px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  display: grid;
+  grid-column: 2;
+  grid-row-end: 1;
+  margin-left: 95px;
+  margin-top: 510px;
+}
+
+.title-goes-here-paragraph-2 {
+  width: 225px;
+  height: 54px;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(93, 105, 112, 1);
+  margin-left: 95px;
+  margin-top: 540px;
+  display: grid;
+  grid-column-start: 2;
+  grid-row-end: 1;
 }
