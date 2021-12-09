@@ -2,7 +2,7 @@ body {
   margin: 0px;
 }
 
-.container {
+.container-1 {
   display: grid;
   grid-template-columns: repeat(3, 20%);
   height: 1000px;
@@ -60,7 +60,7 @@ img {
   height: 2%;
 }
 
-.container div {
+.container-1 div {
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -70,7 +70,7 @@ img {
   width: 100%;
 }
 
-.background-image {
+.background-image-designer-1 {
   background-image: url("designer_1.jpg");
   width: 370%;
   height: 75%;
@@ -436,4 +436,33 @@ img {
   font-weight: 500;
   line-height: 24px;
   margin-left: 180px;
+  margin-bottom: 20px;
+}
+
+.container-6 {
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+}
+
+.container-6 div {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-image-rectangle {
+  background-image: url("Rectangle.jpg");
+  width: 1348px;
+  height: 580px;
+  display: grid;
+  grid-column-start: 1;
+  grid-row-end: 1;
+  margin-top: 80px;
+}
+
+.a-price-to-suit-everyone {
+  display: grid;
+  grid-column-start: 3;
+  grid-row-end: 1;
+  margin-top: 250px;
+  width: 400px;
 }
