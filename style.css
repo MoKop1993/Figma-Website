@@ -59,7 +59,7 @@ img {
 }
 
 .container div {
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
@@ -148,6 +148,7 @@ img {
 .container-2 {
   display: grid;
   grid-template-columns: repeat(3, 20%);
+  margin-left: 50px;
 }
 
 .title-light-fast-powerful-1 {
@@ -155,7 +156,6 @@ img {
   font-style: normal;
   size: 36px;
   line-height: 48px;
-  color: rgba(9, 17, 51, 1);
   width: 160%;
   margin-left: 95px;
   margin-top: 195px;
@@ -187,7 +187,7 @@ img {
 .undraw-mobile {
   width: 540px;
   height: 630px;
-  margin-left: 150px;
+  margin-left: 70px;
   margin-top: 50px;
 }
 
@@ -267,4 +267,102 @@ img {
   display: grid;
   grid-column-start: 2;
   grid-row-end: 1;
+}
+
+.container-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  margin-left: 50px;
+}
+
+.undraw-happy-news-container {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-end: 1;
+}
+
+.undraw-happy-news {
+  width: 480px;
+  height: 315, 85px;
+  margin-left: 95px;
+}
+
+.title-light-fast-powerful-2 {
+  color: rgba(9, 17, 51, 1);
+  width: 445px;
+  height: 48px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 48px;
+  display: grid;
+  grid-column-start: 3;
+  grid-row-end: 1;
+  margin-top: 90px;
+  margin-left: 170px;
+}
+
+.body-paragraph-3 {
+  color: rgba(111, 124, 178, 1);
+  display: grid;
+  grid-column-start: 3;
+  grid-row-end: 1;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 150px;
+  margin-left: 170px;
+  width: 400px;
+}
+
+.container-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  margin-left: 50px;
+}
+
+.undraw-social-influencer-container {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-end: 1;
+}
+
+.undraw-social-influencer {
+  width: 540px;
+  height: 524, 31px;
+  margin-left: 95px;
+  margin-top: 90px;
+}
+
+.title-light-fast-powerful-3 {
+  display: grid;
+  grid-column-start: 3;
+  grid-row-end: 1;
+  margin-top: 190px;
+  margin-left: 180px;
+  width: 445px;
+  height: 48px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: rgba(9, 17, 51, 1);
+}
+
+.body-paragraph-4 {
+  display: grid;
+  grid-column-start: 3;
+  grid-row-end: 1;
+  height: 166px;
+  width: 400px;
+  color: rgba(111, 124, 178, 1);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 250px;
+  margin-left: 180px;
 }
