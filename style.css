@@ -100,21 +100,15 @@ img {
 
 .container-2 {
   display: grid;
-  grid-template-columns: repeat(3, 20%);
-  margin-left: 50px;
-  margin-top: 90px;
+  grid-template-columns: repeat(2, 36%);
 }
 
 .title-light-fast-powerful-1 {
-  font-weight: 500;
-  display: grid;
-  grid-column-start: 1;
-  grid-row-end: 1;
   size: 36px;
   line-height: 48px;
-  width: 160%;
-  margin-left: 95px;
-  margin-top: 595px;
+  position: relative;
+  bottom: 1200px;
+  left: 90px;
 }
 
 .body-paragraph-2 {
@@ -123,95 +117,75 @@ img {
   size: 16px;
   line-height: 26px;
   color: rgba(111, 124, 178, 1);
-  margin-left: 95px;
-  margin-top: 645px;
-  width: 187%;
-  display: grid;
-  grid-column-start: 1;
-  grid-row-end: 1;
+  position: relative;
+  bottom: 1120px;
+  right: 400px;
 }
 
 .undraw-mobile-container {
   display: grid;
-  grid-column-start: 3;
+  grid-column-start: 1;
   grid-row-end: 1;
 }
 
 .undraw-mobile {
-  margin-left: 70px;
-  margin-top: 30px;
+  position: relative;
+  left: 670px;
+  bottom: 950px;
+  margin-bottom: 580px;
 }
 
 .icon-1 {
-  display: grid;
-  grid-column-start: 1;
-  grid-row-end: 1;
-
-  margin-left: 95px;
-  margin-top: 470px;
-  padding: 0px;
+  position: absolute;
+  top: 1300px;
+  left: 75px;
 }
 
 .icon-2 {
-  display: grid;
-  grid-column-start: 2;
-  grid-row-end: 1;
-
-  margin-left: 95px;
-  margin-top: 470px;
-  padding: 0px;
+  position: absolute;
+  left: 320px;
+  top: 1300px;
 }
 
 .title-goes-here-1 {
   color: rgba(9, 17, 51, 1);
-
   font-size: 16px;
   line-height: 26px;
   font-weight: 500;
-  font-family: Roboto;
-  font-style: normal;
-  display: grid;
-  grid-column: 1;
-  grid-row-end: 1;
-  margin-left: 95px;
-  margin-top: 510px;
+  position: relative;
+  left: 70px;
+  bottom: 1050px;
 }
 
 .title-goes-here-paragraph-1 {
   font-size: 12px;
   line-height: 18px;
   color: rgba(93, 105, 112, 1);
-  margin-left: 95px;
-  margin-top: 540px;
-  display: grid;
-  grid-column-start: 1;
-  grid-row-end: 1;
+  position: relative;
+  right: 420px;
+  bottom: 1020px;
+  margin-right: 250px;
 }
 
 .title-goes-here-2 {
   color: rgba(9, 17, 51, 1);
-
   font-size: 16px;
   line-height: 26px;
   font-weight: 500;
-  font-family: Roboto;
-  font-style: normal;
-  display: grid;
-  grid-column: 2;
   grid-row-end: 1;
-  margin-left: 95px;
-  margin-top: 510px;
+  position: relative;
+  top: 520px;
+  right: 165px;
 }
 
 .title-goes-here-paragraph-2 {
   font-size: 12px;
   line-height: 18px;
   color: rgba(93, 105, 112, 1);
-  margin-left: 95px;
-  margin-top: 540px;
-  display: grid;
-  grid-column-start: 2;
-  grid-row-end: 1;
+  position: relative;
+  bottom: 1097px;
+  left: 320px;
+  margin-right: 250px;
 }
 
 .container-3 {
