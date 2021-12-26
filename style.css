@@ -309,28 +309,10 @@ img {
 
 .container-6 {
   display: grid;
-  grid-template-columns: repeat(3, 20%);
-}
-
-.container-6 div {
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.background-image-rectangle {
+  grid-template-columns: 1fr;
   background-image: url("Rectangle.jpg");
-  width: 1348px;
-  height: 580px;
-  display: grid;
-  grid-column-start: 1;
-  grid-row-end: 1;
-  margin-top: 80px;
 }
 
 .a-price-to-suit-everyone {
-  display: grid;
-  grid-column-start: 3;
-  grid-row-end: 1;
   margin-top: 250px;
-  width: 400px;
 }
