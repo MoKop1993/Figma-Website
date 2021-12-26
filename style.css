@@ -145,7 +145,7 @@ img {
 .icon-2 {
   position: absolute;
   left: 320px;
-  top: 1180px;
+  top: 1185px;
 }
 
 .title-goes-here-1 {
@@ -155,7 +155,7 @@ img {
   font-weight: 500;
   position: relative;
   left: 83px;
-  bottom: 1100px;
+  bottom: 1110px;
 }
 
 .title-goes-here-paragraph-1 {
@@ -177,6 +177,7 @@ img {
   position: relative;
   top: 395px;
   right: 165px;
+  height: 10%;
 }
 
 .title-goes-here-paragraph-2 {
@@ -191,52 +192,38 @@ img {
 
 .container-3 {
   display: grid;
-  grid-template-columns: repeat(3, 20%);
-  margin-left: 50px;
-}
-
-.undraw-happy-news-container {
-  display: grid;
-  grid-column-start: 1;
-  grid-row-end: 1;
+  grid-template-columns: repeat(2, 29.7%);
 }
 
 .undraw-happy-news {
-  margin-left: 95px;
+  position: absolute;
+  left: 70px;
+  top: 1550px;
 }
 
 .title-light-fast-powerful-2 {
   color: rgba(9, 17, 51, 1);
-
   font-weight: 500;
-  font-style: normal;
   font-size: 36px;
   line-height: 48px;
-  display: grid;
-  grid-column-start: 3;
-  grid-row-end: 1;
-  margin-top: 90px;
-  margin-left: 170px;
+  position: relative;
+  left: 230px;
+  bottom: 850px;
 }
 
 .body-paragraph-3 {
   color: rgba(111, 124, 178, 1);
-  display: grid;
-  grid-column-start: 3;
-  grid-row-end: 1;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  margin-top: 150px;
-  margin-left: 170px;
+  position: relative;
+  left: 630px;
+  bottom: 880px;
 }
 
 .container-4 {
   display: grid;
-  grid-template-columns: repeat(3, 20%);
-  margin-left: 50px;
+  grid-template-columns: repeat(2, 29.7%);
 }
 
 .undraw-social-influencer-container {
@@ -246,47 +233,34 @@ img {
 }
 
 .undraw-social-influencer {
-  width: 540px;
-  height: 524, 31px;
-  margin-left: 95px;
-  margin-top: 90px;
+  position: absolute;
+  left: 70px;
+  top: 2050px;
 }
 
 .title-light-fast-powerful-3 {
-  display: grid;
-  grid-column-start: 3;
-  grid-row-end: 1;
-  margin-top: 190px;
-  margin-left: 180px;
-  width: 445px;
-  height: 48px;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 36px;
   line-height: 48px;
   color: rgba(9, 17, 51, 1);
+  position: relative;
+  left: 230px;
+  bottom: 630px;
 }
 
 .body-paragraph-4 {
-  display: grid;
-  grid-column-start: 3;
-  grid-row-end: 1;
-  height: 166px;
-  width: 400px;
   color: rgba(111, 124, 178, 1);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 26px;
-  margin-top: 250px;
-  margin-left: 180px;
+  line-height: 22px;
+  position: relative;
+  left: 630px;
+  bottom: 660px;
 }
 
 .container-5 {
   display: grid;
-  grid-template-columns: repeat(3, 20%);
-  margin-left: 50px;
+  grid-template-columns: repeat(2, 35.1%);
 }
 
 .undraw-mention-container {
@@ -296,61 +270,41 @@ img {
 }
 
 .undraw-mention {
-  height: 312px;
-  width: 445px;
-  margin-left: 95px;
-  margin-top: 90px;
+  position: absolute;
+  left: 70px;
+  top: 2620px;
 }
 
 .title-light-fast-powerful-4 {
-  display: grid;
-  grid-column-start: 3;
-  grid-row-end: 1;
-  margin-top: 190px;
-  margin-left: 180px;
-  width: 445px;
-  height: 48px;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 36px;
   line-height: 48px;
   color: rgba(9, 17, 51, 1);
+  position: relative;
+  left: 230px;
+  bottom: 400px;
 }
 
 .body-paragraph-5 {
-  display: grid;
-  grid-column-start: 3;
-  grid-row-end: 1;
-  height: 166px;
-  width: 400px;
   color: rgba(111, 124, 178, 1);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 26px;
-  margin-top: 250px;
-  margin-left: 180px;
-}
-
-.purchase-now-container {
-  display: grid;
-  grid-row-end: 3;
-  grid-column-start: 3;
-  width: 125%;
-  height: 17.5%;
+  line-height: 22px;
+  position: relative;
+  left: 705px;
+  bottom: 420px;
 }
 
 .purchase-now {
   background-color: rgba(17, 27, 71, 1);
   color: rgba(255, 255, 255, 1);
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  margin-left: 180px;
-  margin-bottom: 20px;
+  border-radius: 2px;
+  padding: 4px 25px;
+  position: relative;
+  bottom: 200px;
+  left: 230px;
 }
 
 .container-6 {
