@@ -11,7 +11,7 @@ body {
   background-image: url("designer_1.jpg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 70% 100%;
+  background-size: 75% 110%;
 }
 
 .navigation-logo-buy-container {
@@ -26,8 +26,8 @@ body {
   word-spacing: 40px;
   font-size: 14px;
   position: relative;
-  left: 95px;
-  top: 20px;
+  left: 145px;
+  top: 3px;
   color: #557bc0;
   font-weight: 400;
   line-height: 24px;
@@ -35,9 +35,8 @@ body {
 
 img {
   position: relative;
-  top: 10px;
-  left: 390px;
-  padding: 10px 50px 40px 0px;
+  top: 3px;
+  left: 320px;
 }
 
 .buy-now {
@@ -45,37 +44,38 @@ img {
   color: white;
   background: #111b47;
   border-radius: 2px;
-  padding: 0px 5px;
+  padding: 3px 45px;
   position: relative;
-  left: 650px;
-  top: 10px;
+  left: 610px;
+  top: 3px;
 }
 
 .title-parahraph-button-container-1 {
   display: grid;
   grid-template-columns: repeat(2, 115%);
   position: relative;
-  top: 190px;
-  left: 50px;
+  top: 145px;
+  left: 100px;
 }
 
 .title-introduce {
   color: #091133;
   font-weight: 500;
   font-size: 50px;
-  line-height: 66px;
+  line-height: 55px;
   letter-spacing: 1px;
   position: relative;
-  right: 400px;
+  right: 430px;
 }
 
 .body-paragraph-1 {
   color: #505f98;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 25px;
+  font-weight: 400;
   position: relative;
-  right: 900px;
-  top: 170px;
+  right: 970px;
+  top: 140px;
 }
 
 .purchase-UI-kit {
@@ -83,10 +83,10 @@ img {
   color: white;
   background: #111b47;
   border-radius: 2px;
-  padding: 0px 5px;
+  padding: 4px 25px;
   position: relative;
-  right: 400px;
-  top: 200px;
+  right: 427px;
+  top: 155px;
 }
 
 .learn-more {
@@ -94,8 +94,9 @@ img {
   color: #091133;
   border-radius: 2px;
   position: relative;
-  right: 750px;
-  top: 200px;
+  right: 755px;
+  top: 155px;
+  padding: 4px 35px;
 }
 
 .container-2 {
@@ -115,7 +116,7 @@ img {
   font-weight: 400;
   font-style: normal;
   size: 16px;
-  line-height: 26px;
+  line-height: 22px;
   color: rgba(111, 124, 178, 1);
   position: relative;
   bottom: 1120px;
@@ -131,20 +132,20 @@ img {
 .undraw-mobile {
   position: relative;
   left: 670px;
-  bottom: 950px;
-  margin-bottom: 580px;
+  top: -50px;
+  margin-bottom: 590px;
 }
 
 .icon-1 {
   position: absolute;
-  top: 1300px;
-  left: 75px;
+  top: 1180px;
+  left: 77px;
 }
 
 .icon-2 {
   position: absolute;
   left: 320px;
-  top: 1300px;
+  top: 1180px;
 }
 
 .title-goes-here-1 {
@@ -153,8 +154,8 @@ img {
   line-height: 26px;
   font-weight: 500;
   position: relative;
-  left: 70px;
-  bottom: 1050px;
+  left: 83px;
+  bottom: 1100px;
 }
 
 .title-goes-here-paragraph-1 {
@@ -162,7 +163,7 @@ img {
   line-height: 18px;
   color: rgba(93, 105, 112, 1);
   position: relative;
-  right: 420px;
+  right: 405px;
   bottom: 1020px;
   margin-right: 250px;
 }
@@ -174,7 +175,7 @@ img {
   font-weight: 500;
   grid-row-end: 1;
   position: relative;
-  top: 520px;
+  top: 395px;
   right: 165px;
 }
 
