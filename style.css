@@ -1,7 +1,7 @@
 body {
-  margin: 0px;
   font-family: Roboto;
   font-style: normal;
+  margin: 0px;
 }
 
 .container {
@@ -310,9 +310,66 @@ img {
 .container-6 {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   background-image: url("Rectangle.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .a-price-to-suit-everyone {
-  margin-top: 250px;
+  margin-top: 180px;
+  text-align: center;
+  color: rgba(9, 17, 51, 1);
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.body-paragraph-6 {
+  color: rgba(111, 124, 178, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0px 410px;
+}
+
+.price {
+  font-size: 50px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 66px;
+  color: rgba(34, 47, 101, 1);
+  margin-bottom: 0px;
+}
+
+.UI-design-kit {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(55, 68, 126, 1);
+  margin-bottom: 0px;
+}
+
+.see-one-price-simple {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(93, 105, 112, 1);
+  margin-top: 50px;
+}
+
+.purchase-now-2 {
+  background-color: rgba(17, 27, 71, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 2px;
+  position: absolute;
+  top: 3850px;
+  right: 650px;
 }
