@@ -94,9 +94,9 @@ img {
   color: #091133;
   border-radius: 2px;
   position: relative;
-  right: 755px;
-  top: 155px;
-  padding: 4px 35px;
+  right: 500px;
+  top: 200px;
+  padding: 4px 15px;
 }
 
 .container-2 {
@@ -131,7 +131,7 @@ img {
 
 .undraw-mobile {
   position: relative;
-  left: 670px;
+  left: 630px;
   top: -50px;
   margin-bottom: 590px;
 }
