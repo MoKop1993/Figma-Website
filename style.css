@@ -261,6 +261,7 @@ img {
 .container-5 {
   display: grid;
   grid-template-columns: repeat(2, 35.1%);
+  margin-bottom: 0px;
 }
 
 .undraw-mention-container {
@@ -308,41 +309,39 @@ img {
 }
 
 .container-6 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
   background-image: url("Rectangle.jpg");
-  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  margin-top: -210px;
+  margin-bottom: 0px;
 }
 
 .a-price-to-suit-everyone {
-  margin-top: 180px;
-  text-align: center;
   color: rgba(9, 17, 51, 1);
   font-size: 36px;
   line-height: 48px;
   font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 160px;
 }
 
 .body-paragraph-6 {
   color: rgba(111, 124, 178, 1);
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 20px;
+  margin: 170px 410px;
   text-align: center;
-  margin: 0px 410px;
 }
 
 .price {
-  font-size: 50px;
+  font-size: 36px;
   letter-spacing: 1px;
   text-align: center;
-  font-weight: 500;
-  line-height: 66px;
+  font-weight: bold;
   color: rgba(34, 47, 101, 1);
-  margin-bottom: 0px;
+  position: relative;
+  bottom: 140px;
 }
 
 .UI-design-kit {
@@ -351,7 +350,8 @@ img {
   line-height: 26px;
   text-align: center;
   color: rgba(55, 68, 126, 1);
-  margin-bottom: 0px;
+  position: relative;
+  bottom: 180px;
 }
 
 .see-one-price-simple {
@@ -360,7 +360,8 @@ img {
   line-height: 24px;
   text-align: center;
   color: rgba(93, 105, 112, 1);
-  margin-top: 50px;
+  position: relative;
+  bottom: 150px;
 }
 
 .purchase-now-2 {
@@ -369,7 +370,8 @@ img {
   font-size: 14px;
   font-weight: 500;
   border-radius: 2px;
-  position: absolute;
-  top: 3850px;
-  right: 650px;
+  position: relative;
+  bottom: 160px;
+  left: 595px;
+  padding: 2px 30px;
 }
