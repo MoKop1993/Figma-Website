@@ -375,3 +375,29 @@ img {
   left: 595px;
   padding: 2px 30px;
 }
+
+.rectangle1 {
+  position: absolute;
+  top: 3700px;
+  left: 0px;
+}
+
+.©2020-Yourcompany {
+  position: relative;
+  bottom: 50px;
+}
+
+.purchase-now-3 {
+  position: relative;
+  bottom: 50px;
+}
+
+.horizontal-line {
+  position: relative;
+  left: 50px;
+}
+
+.navigation-container1 {
+  position: relative;
+  bottom: 50px;
+}
