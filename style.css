@@ -446,7 +446,7 @@ img {
   left: 325px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   body {
     margin: 0px;
   }
@@ -488,14 +488,6 @@ img {
     left: 410px;
     top: 3px;
   }
-  .title-parahraph-button-container-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 115%);
-    position: relative;
-    top: 155px;
-    left: 100px;
-  }
-
   .title-introduce {
     color: #091133;
     font-weight: 500;
@@ -508,28 +500,29 @@ img {
 
   .body-paragraph-1 {
     color: #505f98;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 10px;
+    line-height: 15px;
     font-weight: 400;
     position: relative;
-    right: 850px;
-    top: 140px;
+    right: 720px;
+    top: 80px;
   }
 
   .purchase-UI-kit {
-    font-size: 16px;
+    font-size: 8px;
     color: white;
     background: #111b47;
     border-radius: 2px;
-    padding: 7px 35px;
+    padding: 7px 15px;
     position: relative;
-    right: 337px;
-    top: 127px;
+    right: 137px;
+    top: 27px;
   }
 
   .learn-more {
     position: relative;
-    left: -315px;
-    top: 140px;
+    left: -115px;
+    top: 80px;
+    width: 20%;
   }
 }
