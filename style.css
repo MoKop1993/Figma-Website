@@ -475,16 +475,61 @@ img {
   img {
     position: relative;
     top: -4px;
-    left: 40px;
+    left: 300px;
+    width: 50%;
   }
   .buy-now {
-    font-size: 12px;
+    font-size: 8px;
     color: white;
     background: #111b47;
     border-radius: 2px;
-    padding: 3px 45px;
+    padding: 1px 15px;
     position: relative;
-    left: 110px;
+    left: 410px;
     top: 3px;
+  }
+  .title-parahraph-button-container-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 115%);
+    position: relative;
+    top: 155px;
+    left: 100px;
+  }
+
+  .title-introduce {
+    color: #091133;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    position: relative;
+    right: 140px;
+  }
+
+  .body-paragraph-1 {
+    color: #505f98;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    position: relative;
+    right: 850px;
+    top: 140px;
+  }
+
+  .purchase-UI-kit {
+    font-size: 16px;
+    color: white;
+    background: #111b47;
+    border-radius: 2px;
+    padding: 7px 35px;
+    position: relative;
+    right: 337px;
+    top: 127px;
+  }
+
+  .learn-more {
+    position: relative;
+    left: -315px;
+    top: 140px;
   }
 }
