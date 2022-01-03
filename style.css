@@ -277,7 +277,7 @@ img {
   color: rgba(9, 17, 51, 1);
   position: relative;
   left: 390px;
-  bottom: 330px;
+  bottom: 380px;
 }
 
 .body-paragraph-5 {
@@ -287,7 +287,7 @@ img {
   line-height: 22px;
   position: relative;
   left: 790px;
-  bottom: 360px;
+  bottom: 410px;
 }
 
 .purchase-now {
@@ -297,7 +297,7 @@ img {
   font-weight: 500;
   border-radius: 2px;
   position: absolute;
-  top: 2900px;
+  top: 2890px;
   left: 790px;
   padding: 5px 20px;
 }
@@ -448,21 +448,43 @@ img {
 
 @media screen and (max-width: 600px) {
   body {
-    font-family: Roboto;
-    font-style: normal;
     margin: 0px;
   }
   .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    background-image: url("designer_1.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 65% 100%;
+    display: flex;
+    justify-content: flex-end;
+    grid-template-columns: 1fr;
+    background-size: 50% 100%;
   }
   .navigation-logo-buy-container {
     display: grid;
-    grid-template-columns: repeat(3, 50%);
+    grid-template-columns: repeat(3, 60%);
+  }
+  .navigation-container {
+    grid-template-columns: 1fr;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    word-spacing: 20px;
+    font-size: 10px;
+    position: relative;
+    left: 23px;
+    top: 3px;
+    color: #557bc0;
+    line-height: 20px;
+  }
+  img {
+    position: relative;
+    top: -4px;
+    left: 40px;
+  }
+  .buy-now {
+    font-size: 12px;
+    color: white;
+    background: #111b47;
+    border-radius: 2px;
+    padding: 3px 45px;
+    position: relative;
+    left: 110px;
+    top: 3px;
   }
 }
