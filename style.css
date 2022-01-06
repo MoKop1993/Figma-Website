@@ -50,12 +50,12 @@ img {
   top: 3px;
 }
 
-.title-parahraph-button-container-1 {
+.title-parahraph-button-container {
   display: grid;
   grid-template-columns: repeat(2, 115%);
   position: relative;
   top: 155px;
-  left: 100px;
+  left: 110px;
 }
 
 .title-introduce {
@@ -91,7 +91,7 @@ img {
 
 .learn-more {
   position: relative;
-  left: -315px;
+  left: -325px;
   top: 140px;
 }
 
@@ -448,430 +448,104 @@ img {
 
 @media screen and (max-width: 600px) {
   body {
-    margin: 0px;
     font-family: Roboto;
     font-style: normal;
+    margin: 0px;
   }
+
   .container {
-    display: flex;
-    justify-content: flex-end;
-    grid-template-columns: 1fr;
-    background-size: 50% 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-image: url("designer_1.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 76% 100%;
   }
   .navigation-logo-buy-container {
     display: grid;
-    grid-template-columns: repeat(3, 60%);
+    grid-template-columns: repeat(1, 50%);
   }
+
   .navigation-container {
     grid-template-columns: 1fr;
     grid-row-end: 1;
     grid-column-start: 1;
     word-spacing: 20px;
-    font-size: 10px;
+    font-size: 8px;
     position: relative;
-    left: 23px;
+    left: 43px;
     top: 3px;
     color: #557bc0;
-    line-height: 20px;
+    font-weight: 400;
+    line-height: 24px;
   }
+
+  .logo-container {
+    height: 290px;
+  }
+
   img {
     position: relative;
-    top: -4px;
-    left: 300px;
-    width: 50%;
+    top: -18px;
+    left: 257px;
+    width: 30%;
   }
+
   .buy-now {
-    font-size: 6px;
+    font-size: 8px;
     color: white;
     background: #111b47;
-
-    padding: 7px 15px;
+    border-radius: 2px;
+    padding: 3px 25px;
     position: relative;
-    left: 310px;
-    top: 3px;
+    left: 450px;
+    top: -305px;
   }
+  .title-parahraph-button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 115%);
+    position: relative;
+    top: 155px;
+    left: 110px;
+  }
+
   .title-introduce {
     color: #091133;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 25px;
     letter-spacing: 1px;
     position: relative;
-    right: 140px;
+    right: 370px;
+    width: 70%;
   }
 
   .body-paragraph-1 {
     color: #505f98;
     font-size: 10px;
-    line-height: 15px;
+    line-height: 12px;
     font-weight: 400;
     position: relative;
     right: 720px;
-    top: 80px;
+    top: 60px;
+    width: 80%;
   }
 
   .purchase-UI-kit {
-    font-size: 8px;
+    font-size: 16px;
     color: white;
     background: #111b47;
     border-radius: 2px;
-    padding: 7px 15px;
+    padding: 7px 35px;
     position: relative;
-    right: 137px;
-    top: 27px;
+    right: 337px;
+    top: 127px;
   }
 
   .learn-more {
     position: relative;
-    left: -115px;
-    top: 80px;
-    width: 20%;
-  }
-
-  .title-light-fast-powerful-1 {
-    size: 16px;
-    line-height: 48px;
-    position: relative;
-    bottom: 1200px;
-    left: 200px;
-  }
-
-  .body-paragraph-2 {
-    font-weight: 400;
-    font-style: normal;
-    size: 6px;
-    line-height: 12px;
-    color: rgba(111, 124, 178, 1);
-    position: relative;
-    bottom: 1120px;
-    right: 290px;
-  }
-
-  .undraw-mobile-container {
-    display: grid;
-    grid-column-start: 1;
-    grid-row-end: 1;
-  }
-
-  .undraw-mobile {
-    position: relative;
-    left: 40px;
-    top: 150px;
-  }
-
-  .icon-1 {
-    position: absolute;
-    top: 340px;
-    left: 187px;
-    width: 15px;
-  }
-
-  .icon-2 {
-    position: absolute;
-    left: 450px;
-    top: 340px;
-    width: 15px;
-  }
-
-  .title-goes-here-1 {
-    color: rgba(9, 17, 51, 1);
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 500;
-    position: relative;
-    bottom: 540px;
-    left: 187px;
-  }
-
-  .title-goes-here-paragraph-1 {
-    font-size: 12px;
-    line-height: 18px;
-    color: rgba(93, 105, 112, 1);
-    position: relative;
-    right: 295px;
-    bottom: 1005px;
-    margin-right: 250px;
-  }
-
-  .title-goes-here-2 {
-    color: rgba(9, 17, 51, 1);
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 500;
-    grid-row-end: 1;
-    position: relative;
-    top: 465px;
-    right: 40px;
-  }
-  .title-goes-here-paragraph-2 {
-    font-size: 12px;
-    line-height: 18px;
-    color: rgba(93, 105, 112, 1);
-    position: relative;
-    bottom: 1085px;
-    left: 440px;
-    margin-right: 250px;
-  }
-
-  .container-3 {
-    display: grid;
-    grid-template-columns: repeat(2, 29.7%);
-  }
-
-  .undraw-happy-news {
-    position: absolute;
-    left: 190px;
-    top: 1500px;
-  }
-
-  .title-light-fast-powerful-2 {
-    color: rgba(9, 17, 51, 1);
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 48px;
-    position: relative;
-    left: 380px;
-    bottom: 860px;
-  }
-
-  .body-paragraph-3 {
-    color: rgba(111, 124, 178, 1);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    position: relative;
-    left: 780px;
-    bottom: 890px;
-  }
-
-  .container-4 {
-    display: grid;
-    grid-template-columns: repeat(2, 29.7%);
-  }
-
-  .undraw-social-influencer-container {
-    display: grid;
-    grid-column-start: 1;
-    grid-row-end: 1;
-  }
-
-  .undraw-social-influencer {
-    position: absolute;
-    left: 170px;
-    top: 2010px;
-  }
-
-  .title-light-fast-powerful-3 {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 48px;
-    color: rgba(9, 17, 51, 1);
-    position: relative;
-    left: 380px;
-    bottom: 580px;
-  }
-
-  .body-paragraph-4 {
-    color: rgba(111, 124, 178, 1);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    position: relative;
-    left: 780px;
-    bottom: 610px;
-  }
-
-  .container-5 {
-    display: grid;
-    grid-template-columns: repeat(2, 29.7%);
-    margin-bottom: 0px;
-  }
-
-  .undraw-mention-container {
-    display: grid;
-    grid-column-start: 1;
-    grid-row-end: 1;
-  }
-
-  .undraw-mention {
-    position: absolute;
-    left: 170px;
-    top: 2620px;
-  }
-
-  .title-light-fast-powerful-4 {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 48px;
-    color: rgba(9, 17, 51, 1);
-    position: relative;
-    left: 390px;
-    bottom: 380px;
-  }
-
-  .body-paragraph-5 {
-    color: rgba(111, 124, 178, 1);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    position: relative;
-    left: 790px;
-    bottom: 410px;
-  }
-
-  .purchase-now {
-    background: rgba(17, 27, 71, 1);
-    color: rgba(255, 255, 255, 1);
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 2px;
-    position: absolute;
-    top: 2890px;
-    left: 790px;
-    padding: 5px 20px;
-  }
-
-  .container-6 {
-    background-image: url("Rectangle.jpg");
-    background-repeat: no-repeat;
-    margin-top: -210px;
-    margin-bottom: 0px;
-  }
-
-  .a-price-to-suit-everyone {
-    color: rgba(9, 17, 51, 1);
-    font-size: 36px;
-    line-height: 48px;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    top: 180px;
-  }
-
-  .body-paragraph-6 {
-    color: rgba(111, 124, 178, 1);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 190px 410px;
-    text-align: center;
-  }
-
-  .price {
-    font-size: 36px;
-    letter-spacing: 1px;
-    text-align: center;
-    font-weight: bold;
-    color: rgba(34, 47, 101, 1);
-    position: relative;
-    bottom: 120px;
-  }
-
-  .UI-design-kit {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: rgba(55, 68, 126, 1);
-    position: relative;
-    bottom: 160px;
-  }
-
-  .see-one-price-simple {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-    color: rgba(93, 105, 112, 1);
-    position: relative;
-    bottom: 130px;
-  }
-
-  .purchase-now-2 {
-    background: rgba(17, 27, 71, 1);
-    color: rgba(255, 255, 255, 1);
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 2px;
-    position: relative;
-    bottom: 140px;
-    left: 595px;
-    padding: 2px 30px;
-  }
-
-  .rectangle1 {
-    position: absolute;
-    top: 3790px;
-    left: 0px;
-  }
-
-  .©2020-Yourcompany {
-    position: relative;
-    bottom: -110px;
-    right: 493px;
-    text-align: center;
-    color: rgba(147, 158, 164, 1);
-    font-weight: 500;
-  }
-
-  .landie1 {
-    position: relative;
-    left: 630px;
-    top: 65px;
-  }
-
-  .purchase-now-3 {
-    position: relative;
-    bottom: -20px;
-    left: 1120px;
-    background: rgba(17, 27, 71, 1);
-    color: rgba(255, 255, 255, 1);
-    padding: 3px 10px;
-  }
-
-  .horizontal-line {
-    position: relative;
-    left: 5px;
-    top: 60px;
-  }
-
-  .navigation-container1 {
-    position: relative;
-    bottom: -55px;
-    right: 430px;
-    color: rgba(146, 158, 204, 1);
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 24px;
-    word-spacing: 70px;
-  }
-
-  .icons-container {
-    display: flex;
-    justify-content: right;
-    position: relative;
-    right: 450px;
-    bottom: -25px;
-  }
-
-  .facebook {
-    left: 228px;
-  }
-
-  .instagram1 {
-    left: 248px;
-  }
-
-  .twitter {
-    left: 270px;
-  }
-
-  .youtube {
-    left: 298px;
-  }
-
-  .instagram {
-    left: 325px;
+    left: -325px;
+    top: 140px;
   }
 }
