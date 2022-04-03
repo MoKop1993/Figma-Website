@@ -9,25 +9,22 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   background-image: url("designer_1.jpg");
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-position: right;
   background-size: 66% 100%;
+  max-width: 100%;
+  height: auto;
 }
 
-.navigation-logo-buy-container {
-  display: grid;
-  grid-template-columns: repeat(3, 50%);
-}
+
 
 .navigation-container {
-  grid-template-columns: 1fr;
-  grid-row-end: 1;
-  grid-column-start: 1;
-  word-spacing: 40px;
+ display: flex;
+ justify-content: space-evenly;
   font-size: 14px;
   position: relative;
-  left: 223px;
-  top: 3px;
+  left: 170px;
+  top: 5px;
   color: #557bc0;
   font-weight: 400;
   line-height: 24px;
@@ -35,8 +32,19 @@ body {
 
 img {
   position: relative;
-  top: -2px;
-  left: 450px;
+  top: 5px;
+  left: 223px;
+  max-width: 100%;
+  height: auto;
+}
+
+.buy-now-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -85px;
+  right: 130px;
+  
 }
 
 .buy-now {
@@ -44,19 +52,12 @@ img {
   color: white;
   background: #111b47;
   border-radius: 2px;
-  padding: 3px 45px;
-  position: relative;
-  left: 610px;
-  top: 8px;
+  padding: 1% 13%;
+  margin: 22% 6%;
+  
 }
 
-.title-parahraph-button-container {
-  display: grid;
-  grid-template-columns: repeat(2, 115%);
-  position: relative;
-  top: 145px;
-  left: 110px;
-}
+
 
 .title-introduce {
   color: #091133;
@@ -65,7 +66,13 @@ img {
   line-height: 55px;
   letter-spacing: 1px;
   position: relative;
-  right: 330px;
+  right: -75px;
+  width: 134%;
+
+ 
+
+  
+  
 }
 
 .body-paragraph-1 {
@@ -74,25 +81,27 @@ img {
   line-height: 22px;
   font-weight: 400;
   position: relative;
-  right: 850px;
+  right: 160px;
   top: 140px;
 }
+
+
 
 .purchase-UI-kit {
   font-size: 16px;
   color: white;
   background: #111b47;
   border-radius: 2px;
-  padding: 7px 35px;
-  position: relative;
-  right: 337px;
-  top: 127px;
+  padding: 2% 10%;
+  
 }
 
 .learn-more {
   position: relative;
   left: -325px;
   top: 140px;
+  max-width: 100%;
+  height: auto;
 }
 
 .container-2 {
@@ -130,18 +139,24 @@ img {
   left: 640px;
   top: -50px;
   margin-bottom: 590px;
+  max-width: 100%;
+  height: auto;
 }
 
 .icon-1 {
   position: absolute;
   top: 1140px;
   left: 187px;
+  max-width: 100%;
+  height: auto;
 }
 
 .icon-2 {
   position: absolute;
   left: 450px;
   top: 1140px;
+  max-width: 100%;
+  height: auto;
 }
 
 .title-goes-here-1 {
