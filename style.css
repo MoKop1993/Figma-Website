@@ -2,6 +2,7 @@ body {
   font-family: Roboto;
   font-style: normal;
   margin: 0px;
+  
 }
 
 .container {
@@ -11,29 +12,33 @@ body {
   background-image: url("designer_1.jpg");
   background-repeat:no-repeat;
   background-position: right;
-  background-size: 66% 100%;
+  background-size: 50% 100%;
   max-width: 100%;
   height: auto;
+  
 }
+  
 
 
 
 .navigation-container {
- display: flex;
- justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
+ word-spacing: 2px;
   font-size: 14px;
   position: relative;
-  left: 170px;
-  top: 5px;
+  left: 335px;
+  top: 10px;
   color: #557bc0;
   font-weight: 400;
   line-height: 24px;
+  width: 80%;
 }
 
 img {
   position: relative;
   top: 5px;
-  left: 223px;
+  left: 339px;
   max-width: 100%;
   height: auto;
 }
@@ -43,7 +48,7 @@ img {
   justify-content: flex-end;
   position: relative;
   top: -85px;
-  right: 130px;
+  right: 75px;
   
 }
 
@@ -66,24 +71,32 @@ img {
   line-height: 55px;
   letter-spacing: 1px;
   position: relative;
-  right: -75px;
-  width: 134%;
+  right: -390px;
+  top: -95px;
+  width: 129%;
+  font-weight:500;
+  padding: 20px;
+}
 
  
 
   
   
-}
+
 
 .body-paragraph-1 {
   color: #505f98;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 25px;
   font-weight: 400;
   position: relative;
-  right: 160px;
-  top: 140px;
+  top: 45px;
+  right: 70px;
+  width: 120%; 
+  height: 2%;
+  letter-spacing: 0.5px;
 }
+
 
 
 
@@ -92,16 +105,20 @@ img {
   color: white;
   background: #111b47;
   border-radius: 2px;
-  padding: 2% 10%;
+  position: relative;
+  padding: 2% 7%;
+  top: 172px;
+  right: 505px;
   
 }
 
 .learn-more {
   position: relative;
-  left: -325px;
-  top: 140px;
+  left: -458px;
+  top: 185px;
   max-width: 100%;
   height: auto;
+  width: 46%;
 }
 
 .container-2 {
@@ -113,8 +130,8 @@ img {
   size: 36px;
   line-height: 48px;
   position: relative;
-  bottom: 1200px;
-  left: 200px;
+  bottom: 1050px;
+  left: 400px;
 }
 
 .body-paragraph-2 {
@@ -124,8 +141,8 @@ img {
   line-height: 22px;
   color: rgba(111, 124, 178, 1);
   position: relative;
-  bottom: 1120px;
-  right: 290px;
+  bottom: 960px;
+  right: 90px;
 }
 
 .undraw-mobile-container {
@@ -136,7 +153,7 @@ img {
 
 .undraw-mobile {
   position: relative;
-  left: 640px;
+  left: 860px;
   top: -50px;
   margin-bottom: 590px;
   max-width: 100%;
@@ -387,7 +404,7 @@ img {
 
 .rectangle1 {
   position: absolute;
-  top: 3790px;
+  top: 3590px;
   left: 0px;
 }
 
