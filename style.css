@@ -477,3 +477,49 @@ img {
 .instagram {
   left: 325px;
 }
+
+@media (max-width: 576px) {
+  body {
+    margin: 0;
+    
+  }
+  
+  .container {
+    display: grid;
+    max-width: 100%;
+  }
+  
+    .navigation-container {
+      display: flex;
+      justify-content: space-evenly;
+      position: relative;
+      left: 20px;
+      max-width: 100%;
+    }
+  
+    img {
+      position: relative;
+      left: 123px;
+      top: 4px;
+      width: 31%;
+    }
+  
+    .buy-now-container {
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      top: -30px;
+      right: 30px;
+      
+    }
+  
+    .buy-now {
+      font-size: 12px;
+      color: white;
+      background: #111b47;
+      border-radius: 2px;
+      padding: 1% 13%;
+      margin: 22% 6%;
+      
+    }
+  }
